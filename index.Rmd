@@ -22,5 +22,5 @@ s = function(x){summary(factor(x))}
 This is a test to use Airflow to generate a random number according to a time schedule; append this new value to an existing vector of random numbers; and plot that vector in a Shiny app.
 
 **Here is the Shiny app:** 
-<https://jeremyspater.shinyapps.io/app-2/>.
+<https://jeremyspater.shinyapps.io/shiny_airflow_updating_test/>.
 
