@@ -1,0 +1,26 @@
+---
+title: "Airflow Updating Test"
+output:
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+#10 nov '23: the point is to embed a shiny app that relies on 
+#airflow to generate random numbers and update a graph
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)  #suppress warnings
+
+rm(list=ls())
+s = function(x){summary(factor(x))}
+####################################################################################################
+```
+
+## Airflow Test
+
+This is a test to use Airflow to generate a random number according to a time schedule; append this new value to an existing vector of random numbers; and plot that vector in a Shiny app.
+
+**Here is the Shiny app:** 
+<https://jeremyspater.shinyapps.io/app-2/>.
+
